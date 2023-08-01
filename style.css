@@ -16,7 +16,7 @@ html {
 }
 
 p {
-  color:	#5F9EA0;
+  color: black;
 }
 
 /* TRANSITION */
@@ -52,7 +52,7 @@ a {
 }
 
 a:hover {
-  color:#5F9EA0;
+  color:#D8BFD8;
   text-decoration: underline;
   text-underline-offset: 1rem;
   text-decoration-color: rgb(181, 181, 181);
