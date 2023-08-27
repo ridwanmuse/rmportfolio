@@ -70,9 +70,34 @@ padding-top: 0px;
   b:hover {
     cursor: default;
   }
- img{
-  width:50px;
-  height: auto;
- }
+  
+  div.images{
+    display: flex;
+    flex-flow: column;
+}
 
- 
+div.images div.row {
+    display: flex;
+    flex-flow: row;
+    text-align: left;
+}
+
+div.images img{
+    width: 200px;
+    height: 200px;
+}
+.timeline {
+	max-width: 800px;
+	list-style: none;
+	padding: 20px 0 20px;
+	position: relative;
+}
+.card {
+  margin: 0 auto; /* Added */
+  float: none; /* Added */
+  margin-bottom: 10px; /* Added */
+}
+
+h4{
+  
+}
