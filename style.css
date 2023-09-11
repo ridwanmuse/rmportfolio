@@ -213,9 +213,17 @@ padding-top: 0px;
   color: #000000;
 }
 
-img{
-  display:inline;
-  padding: 2px;
+div.item {
+  vertical-align: top;
+  display: inline-block;
+  text-align: center;
+  width: 120px;
+}
+img {
   width: 100px;
-  padding: 2%;
+  height: 100px;
+ 
+}
+.caption {
+  display: block;
 }
