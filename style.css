@@ -229,21 +229,33 @@ padding-bottom: 0px;
 }
 
 div.item {
-  vertical-align: top;
+  vertical-align:top;
   display:inline-block;
   text-align: center;
-  width: 210px;
+  width: 200px;
   position: relative;
   bottom: 4px;
 }
 
+
 img {
-  width: 110px;
-  height: 110px;
+  width: 100px;
+  height: 100px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  padding: 15px;
+  
 }
 
 .caption {
   display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+
+  
 }
 
 img:hover {
